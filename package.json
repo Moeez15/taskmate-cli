@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type":"module",
+  "bin":	{
+    "taskmate-cli": "index.js" 
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,9 +17,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Moeez15/taskmate-cli/issues"
   },
-  "homepage": "https://github.com/Moeez15/taskmate-cli#readme"
+  "homepage": "https://github.com/Moeez15/taskmate-cli#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.79.0",
+    "dotenv": "^17.3.1",
+    "glob": "^13.0.6",
+    "gray-matter": "^4.0.3"
+  }
 }
