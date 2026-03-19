@@ -1,1 +1,0 @@
-// build catalog for system prompt

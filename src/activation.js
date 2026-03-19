@@ -1,1 +1,0 @@
-// load full skill content on demand
