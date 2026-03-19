@@ -1,3 +1,4 @@
+#!/usr/bin/env -S node --import tsx/esm
 import 'dotenv/config'
 import * as readline from 'node:readline/promises'
 import { stdin as input, stdout as output } from 'node:process'

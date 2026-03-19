@@ -14,17 +14,12 @@ export function buildCatalog(skills: Skill[]): string {
 
   const skillEntries = skills
     .map(
-      (skill) => `  <skill>
-    <name>${skill.name}</name>
-    <description>${skill.description}</description>
-    <location>${skill.location}</location>
-  </skill>`
+      (skill) =>
+        `<skill>\n<name>${skill.name}</name>\n<description>${skill.description}</description>\n<location>${skill.location}</location>\n</skill>`
     )
     .join('\n')
 
-  const catalog = `<available_skills>
-${skillEntries}
-</available_skills>`
+  const catalog = `<available_skills>\n${skillEntries}\n</available_skills>`
 
   const instructions = `The following skills provide specialized instructions for specific tasks.
 When a task matches a skill's description, activate that skill to load its full instructions before responding.

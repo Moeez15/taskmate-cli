@@ -4,10 +4,10 @@ import { glob } from 'glob'
 import matter from 'gray-matter'
 
 export interface Skill {
-  name: string       
-  description: string 
-  location: string 
-  body: string       
+  name: string
+  description: string
+  location: string
+  body: string
 }
 
 /**

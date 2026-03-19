@@ -13,7 +13,6 @@ const client = new Anthropic()
  *   4. Stream Claude's response to stdout
  */
 export async function runAgent(userPrompt: string, projectRoot: string): Promise<void> {
-  
   const skills = await discoverSkills(projectRoot)
   const activatedContent = await activateSkills(userPrompt, skills, client)
   const catalog = buildCatalog(skills)

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "bin": {
-    "taskmate-cli": "bin/taskmate-cli.js"
+    "taskmate-cli": "index.ts"
   },
   "scripts": {
     "start": "node --import tsx/esm index.ts"
