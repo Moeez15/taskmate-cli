@@ -95,7 +95,8 @@ taskmate-cli/
 │   ├── activation.ts  
 │   ├── catalog.ts     
 │   └── discovery.ts    
-├── index.ts            
+├── index.ts
+├── tsconfig.json
 └── package.json
 ```
 
@@ -104,7 +105,7 @@ taskmate-cli/
 **Time spent:** 6 hours
 
 **Challenges:**
-This was my first time building a CLI agent that can respond using different skills, so there was a lot to figure out. The hardest part was really understanding the Agent Skills specification and making sure my implementation followed all the rules. It took some trial and error to get the skill-matching logic right—especially making sure the welcome-me skill only triggered for the right prompts. Figuring out how to load skills dynamically and keeping the code clean and readable at the same time was tricky, but it was also a really interesting learning experience.
+This was my first time building a CLI agent that can respond using different skills, so there was a lot to figure out. The hardest part was really understanding the Agent Skills specification and making sure my implementation followed all the rules. It took some trial and error to get the skill-matching logic right especially making sure the welcome-me skill only triggered for the right prompts. Figuring out how to load skills dynamically and keeping the code clean and readable at the same time was tricky, but it was also a really interesting learning experience.
 
 
 ## Example prompts
@@ -134,7 +135,7 @@ What is 2 + 2?
 ## Video Walkthrough
 <div>
     <a href="https://www.loom.com/share/101c831956f845198679c979be0df803">
-      <p>Videos | Library | Loom - 19 March 2026 - Watch Video</p>
+      <p>taskmate-cli Demo Walkthrough</p>
     </a>
     <a href="https://www.loom.com/share/101c831956f845198679c979be0df803">
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/101c831956f845198679c979be0df803-2b823e48f2946695-full-play.gif#t=0.1">
