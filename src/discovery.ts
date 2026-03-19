@@ -17,8 +17,6 @@ export interface Skill {
  */
 export async function discoverSkills(projectRoot: string): Promise<Skill[]> {
   const scanPaths = [
-    join(projectRoot, '.skills'),
-    join(projectRoot, '.agents', 'skills'),
     join(projectRoot, 'skills'),
   ]
 
