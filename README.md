@@ -115,16 +115,16 @@ This was my first time building a CLI agent that can respond using different ski
 I'm new to this project, what should I do?
 ```
 
-**doc-coauthoring**
-```
-Help me draft a proposal for migrating our database from MySQL to PostgreSQL. 
-```
-
 **internal-comms**
 ```
 1. Draft a company newsletter highlighting that Q1 results exceeded expectations by 15%, announcing the opening of a new London office, and promoting the annual hackathon taking place June 12–14.
 
 2. Write a 3P for the whole engineering org — we hired 12 people, launched the v2 API, and we're blocked on the vendor contract for cloud migration.
+```
+
+**doc-coauthoring**
+```
+Help me draft a proposal for migrating our database from MySQL to PostgreSQL. 
 ```
 
 **No skill**
