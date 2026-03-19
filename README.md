@@ -144,7 +144,7 @@ What is 2 + 2?
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2026] [Moeeez Ahmad]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
